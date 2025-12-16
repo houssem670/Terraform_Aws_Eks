@@ -21,6 +21,7 @@ Il comprend la création du réseau, d’un cluster **Amazon EKS** et le déploi
 ## Structure du projet
 
 TERRAFORM_AWS_EKS/
+
 ├── vpc.tf                 # Création de la VPC, subnets, IGW, NAT et route tables
 
 ├── eks-cluster.tf         # Cluster EKS et worker nodes
