@@ -53,14 +53,15 @@ aws eks --region eu-west-3 update-kubeconfig --name myapp-eks-cluster
 # Kubernetes:
 
 kubectl apply -f nginx-config.yaml
+
 kubectl get pods
+
 kubectl get svc
 
 # Accéder à l’application Nginx
 
 Après avoir déployé Nginx, récupère l’adresse publique avec :
 
-```
 kubectl get svc 
 
 Ensuite, ouvre cette adresse dans le navigateur ou utilise curl :
