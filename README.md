@@ -22,11 +22,17 @@ Il comprend la création du réseau, d’un cluster **Amazon EKS** et le déploi
 
 TERRAFORM_AWS_EKS/
 ├── vpc.tf                 # Création de la VPC, subnets, IGW, NAT et route tables
+
 ├── eks-cluster.tf         # Cluster EKS et worker nodes
+
 ├── terraform.tfvars       # Valeurs des variables Terraform
+
 ├── nginx-config.yaml      # Deployment et Service Kubernetes (Nginx)
+
 ├── README.md              # Documentation du projet
+
 ├── .gitignore
+
 └── .terraform.lock.hcl
 
 ## Commande Utiliser
@@ -34,7 +40,9 @@ TERRAFORM_AWS_EKS/
 # Terraform:
 
 terraform init
+
 terraform plan
+
 terraform apply
 
 # Configuration de kubectl:
